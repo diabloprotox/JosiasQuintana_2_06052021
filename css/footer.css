@@ -1,0 +1,16 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #F2F2F2;
+}
+
+footer div{
+    padding: 50px 200px 50px 50px;
+}
+footer h2{
+    padding-bottom: 10%;
+}
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+}

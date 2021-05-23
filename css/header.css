@@ -1,0 +1,39 @@
+header{
+    padding-top: 50px;
+}
+
+nav li{
+    display: inline;
+    color: #0065FC;
+    margin: 10px;
+    padding-top: 49px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav li:hover{
+    border-top: 1px solid #0065FC;
+    color: #0065FC;
+}
+
+nav ul{
+    position: absolute;
+    right: 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+#logo{
+    width: 100%;
+    float: left;
+}
+
+nav{
+    width: calc(100% - 100px); 
+    float: right;
+    font-size: 1.1em;
+}
+
+nav a:hover{
+    color: #0065FC;
+}
