@@ -2,22 +2,29 @@
 
 /*---------------Section recherche--------------------------*/
 
-#mid{
-    display: grid;
-    grid-template-columns: calc(70% - 50px) 50px 30%;
-    margin: 50px;
 
+#sectionrecherche{
+    margin: 15px 50px;
+}
+
+#recherchetitle{
+    padding: 2em 0  ;
+    margin: 0;
+
+}
+#recherchetitle p {
+    margin: 10px 0 10px 0;
+}
+
+#search{
+    display: flex;
+    align-items: center;
 }
 
 i.fa-map-marker-alt{
     background-color: #f2f2f2;
-    padding: 9px 14px;
+    padding: 10px 14px;
     border-radius: 10px 0 0 10px;
-}
-
-
-#sectionrecherche{
-    height: 200px;
 }
 
 #recherche{
@@ -26,21 +33,26 @@ i.fa-map-marker-alt{
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     padding-left: 10px;
+    font-size: 1em;
+    font-weight: 800;
 }
+
 #boutreche{
     width: 133px;
-    height: 50px;
+    height: 51px;
     background-color: #0065FC;
     color: #f2f2f2;
     border: none;
     border-radius: 0 10px 10px 0;
 }
 
+#boutonfil{
+    display: flex;
+    flex-wrap: wrap;
+
+}
 #boutonfil button{
-    margin-left: 50px;
-    float: left;
-    width: auto;
-    height: 50px;
+    margin: 15px 15px 15px 35px;
     background-color: white;
     border: 2px solid #F2F2F2;
     border-radius: 20px;
@@ -48,37 +60,53 @@ i.fa-map-marker-alt{
     justify-content: center;
 
 }
-#filtres h2{
-    float: left;
-    height: 50px;
-    padding: 10px;
+#filtres{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
 }
 
 #boutonfil i{
-    grid-column: 1;
     padding: 15px;
     background-color: #deebff;
     color: #0065FC;
     border-radius: 10px 0 0 10px;
 }
-#boutonfil h2{
-    grid-column: 2;
+.filtertitle{
     padding: 10px;
+    font-size: 1.3em;
+    font-weight: 700;
 }
+
+#rechercheinfo{
+    display: flex;
+    align-items: center;
+
+}
+#rechercheinfo i{
+    color: #0065FC;
+    border: solid 1px #deebff;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 20px;
+    width: 10px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+
 
 
 /*-----------------------------Section Hebergement------------------------------------*/
 
-/*#temp{
-    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    width: 100%;
-    height: 300px;
-    background-size: 100% auto;
-    background-position: center center;
-    grid-row: 1 / 4;
 
-}*/
 
+#mid{
+    display: grid;
+    grid-template-columns: calc(70% - 50px) 50px 30%;
+    margin: 50px;
+
+}
 #container{
     grid-column: 1 / 2;
     background-color: #F2F2F2;
