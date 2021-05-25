@@ -1,13 +1,17 @@
 header{
     display: flex;
-    align-items: center;
-    margin: 20px 50px;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+
+#logo{
+    left: 0px;
 }
 
 nav li{
     display: inline;
     color: #0065FC;
-    padding-top: 41px;
+    padding-top: 39px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -18,15 +22,11 @@ nav li:hover{
 }
 
 nav ul{
-    position: absolute;
-    right: 30px;
     font-size: 1.1em;
     font-weight: 600;
 }
 
 nav{
-    width: calc(100% - 100px); 
-    float: right;
     font-size: 1.1em;
 }
 
