@@ -1,6 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 40px 50px;
 }
 
@@ -8,12 +9,26 @@ header{
     left: 0px;
 }
 
+.navigation{
+    display: flex;
+    align-items: baseline;
+}
+.navigation h3{
+    order: 3;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0065FC;
+}
+
+.navigation{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
 nav li{
     display: inline;
     color: #0065FC;
-    padding-top: 39px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 39px 20px 0 20px;
 }
 
 nav li:hover{
@@ -21,10 +36,10 @@ nav li:hover{
     color: #0065FC;
 }
 
-nav ul{
+/*nav{
     font-size: 1.1em;
     font-weight: 600;
-}
+}*/
 
 nav{
     font-size: 1.1em;
