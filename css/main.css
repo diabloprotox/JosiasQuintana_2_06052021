@@ -37,6 +37,11 @@ i.fa-map-marker-alt{
     font-weight: 800;
 }
 
+#boutrechemob{
+    display: none;
+}
+
+
 #boutreche{
     width: 133px;
     height: 51px;
@@ -85,6 +90,7 @@ i.fa-map-marker-alt{
 #rechercheinfo{
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 
 }
 #rechercheinfo i{
@@ -96,6 +102,7 @@ i.fa-map-marker-alt{
     width: 10px;
     font-size: 0.7em;
     text-align: center;
+    flex-shrink: 0;
 }
 
 
@@ -138,6 +145,7 @@ i.fa-map-marker-alt{
     width: 90%;
     border-radius: 20px;
     padding: 5px;
+    box-shadow: 0 4px 10px #e4e4e4;
 }
 
 .squareheber p{
@@ -194,6 +202,7 @@ i.fa-map-marker-alt{
     background-color: white;
     border-radius: 20px;
     padding: 5px;
+    box-shadow: 0 4px 10px #e4e4e4;
 }
 
 .squarepop  h3{
