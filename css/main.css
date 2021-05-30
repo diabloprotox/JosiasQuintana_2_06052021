@@ -114,8 +114,9 @@ i.fa-map-marker-alt{
 
 #mid{
     display: grid;
-    grid-template-columns: calc(70% - 50px) 50px 30%;
+    grid-template-columns: calc(70% - 20px) calc(30% - 20px);
     margin: 50px;
+    gap: 40px;
 
 }
 #container{
@@ -141,8 +142,6 @@ i.fa-map-marker-alt{
 
 .squareheber{
     background-color: white;
-    /*height: 200px;
-    width: 90%;*/
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0 4px 10px #e4e4e4;
@@ -165,12 +164,12 @@ i.fa-map-marker-alt{
 
 
 #populaires{
-    grid-column: 3 / 4;
+    grid-column: 2;
     background-color: #f2f2f2;
     border: 2px;
     border-radius: 20px;
     padding: 2em;
-    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .pop{
@@ -194,7 +193,6 @@ i.fa-map-marker-alt{
 }
 
 .squarepop{
-    width: 100%;
     height: 140px;
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
@@ -298,7 +296,7 @@ i.fa-map-marker-alt{
 }
 
 #activitescontainer .item-1 img, #activitescontainer .item-4 img{
-    height: 450px;
+    height: 425px;
 }
 #activitescontainer .item-2 img, #activitescontainer .item-6 img{
     height: 200px;
