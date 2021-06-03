@@ -49,6 +49,8 @@ i.fa-map-marker-alt{
     color: #f2f2f2;
     border: none;
     border-radius: 0 10px 10px 0;
+    font-size: 1.1em;
+    font-weight: 800;
 }
 
 #boutonfil{
@@ -62,7 +64,7 @@ i.fa-map-marker-alt{
     border: 2px solid #F2F2F2;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 #boutonfil button:hover{
@@ -82,7 +84,7 @@ i.fa-map-marker-alt{
     border-radius: 15px;
 }
 .filtertitle{
-    padding: 10px;
+    padding: 10px 20px 10px 15px;
     font-size: 1.3em;
     font-weight: 700;
 }
@@ -255,6 +257,16 @@ i.fa-map-marker-alt{
 .squareacti{
     border-radius: 20px;
     box-shadow: 0 4px 10px #e4e4e4;
+    /*display: flex;
+    flex-direction: column;*/
+}
+/*.squareacti a{
+    display: flex;
+    flex-direction: column;
+}*/
+
+.squareacti a h3{
+    text-align: start;
 }
 
 .squareacti img{
@@ -296,7 +308,7 @@ i.fa-map-marker-alt{
 }
 
 #activitescontainer .item-1 img, #activitescontainer .item-4 img{
-    height: 425px;
+    height: 450px;
 }
 #activitescontainer .item-2 img, #activitescontainer .item-6 img{
     height: 200px;

@@ -11,9 +11,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-    header ul li:nth-child(3){
-        order: 1;
-    }
 
     #logo{
         position: absolute;
@@ -184,7 +181,7 @@
     }
 }
 /*-------------Tablet------------*/
-@media only screen and (min-width : 768px) and (max-width : 1390px) {
+@media only screen and (min-width : 768px) and (max-width : 1450px) {
     #mid{
         grid-template-columns: 100%;
     }
@@ -201,30 +198,8 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        /*display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas:
-                            "a b c"
-                            ". e .";*/
     }
     .squarepop{
         width: 350px;
     }
-
-    .pop .item-1{
-        grid-area: a;
-        /*grid-column: 1;
-        grid-row: 1;*/
-    }
-    .pop .item-2{
-        grid-area: c;
-        /*grid-column: 2;
-        grid-row: 1;*/
-    }
-    .pop .item-3{
-        grid-area: e;
-    }
-
-
 }
