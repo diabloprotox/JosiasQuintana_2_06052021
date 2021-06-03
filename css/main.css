@@ -72,6 +72,10 @@ i.fa-map-marker-alt{
     background-color: #0065fc;
     color: white;
 }
+
+.b1{
+    cursor: pointer;
+}
 #filtres{
     display: flex;
     align-items: center;
