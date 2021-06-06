@@ -254,21 +254,13 @@ i.fa-map-marker-alt{
 
 #activitescontainer{
     display: grid;
-    grid-template-columns:repeat(4 ,calc(25% - 35px));
-    grid-template-rows: repeat(2 , 250px);
     grid-gap:  0 50px;
 }
 
 .squareacti{
     border-radius: 20px;
     box-shadow: 0 4px 10px #e4e4e4;
-    /*display: flex;
-    flex-direction: column;*/
 }
-/*.squareacti a{
-    display: flex;
-    flex-direction: column;
-}*/
 
 .squareacti a h3{
     text-align: start;

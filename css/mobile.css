@@ -186,6 +186,14 @@
 /*-------------Tablet------------*/
 
 @media only screen and (min-width : 750px) and (max-width : 1380px) {
+
+    #filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
     #mid{
         grid-template-columns: 100%;
     }
